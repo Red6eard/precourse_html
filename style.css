@@ -72,3 +72,74 @@ body {
 .main-image {
 
 }
+
+.ratest-section {
+    background: #F9FAFC;
+    padding: 100px 0    ;
+}
+
+.subtitle {
+    color: #363940;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 43px;
+    margin-bottom: 20px;
+}
+
+.ratest-section-table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #95A1BB;
+    width: 240px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.ratest-section-table-subtitle {
+    color: #363940;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.ratest-section-table-title {
+    color: #363940;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.ratest-section-table-link {
+    color: #0A61F7;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ratest-section-table-button {
+    border-radius: 4px;
+    border: 1px solid #0A61F7;
+    background: #F9FAFC;
+    width: 140px;
+    height: 36px;
+    color: #0A61F7;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19.6px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.gray {
+    color: #95A1BB;
+}
+
+.active {
+    background: #0A61F7;
+    color: #FFF;
+}
+
+.ratest-section-table-footer td {
+    padding: 30px 0;
+}
