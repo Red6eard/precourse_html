@@ -7,6 +7,9 @@
 a {
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 
 ul {
     list-style: none;
@@ -15,6 +18,11 @@ ul {
 button {
     border: none;
     background-color: transparent;
+    cursor: pointer;
+    transition: .2s;
+}
+button:hover{
+    transform: translateY(-3px);
 }
 
 html,
@@ -319,6 +327,12 @@ height: 50px;
 flex-grow: 1;
 }
 
+input[type="radio"],
+input[type="checkbox"],
+input[type="date"],
+select{
+    cursor: pointer;
+}
 
 
 /* стили для футера */
