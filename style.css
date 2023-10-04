@@ -99,7 +99,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 800px;
+    min-height: 800px;
 }
 
 .main-title {
@@ -352,3 +352,33 @@ select {
     font-weight: 400;
     line-height: 22px;
 }
+@media screen and (max-width: 1400px) {
+    .main-wrap {
+        flex-direction: column;
+    }
+    .main-info{
+        align-self: flex-start;
+        margin: 100px 0 80px;
+    }
+    .main-image{
+        align-self: center;
+    }
+    .ratest-section-table{
+        width: 940px;
+    }
+    .table-wrap{
+        overflow-x: auto;
+        width: 100%;
+        max-width: 940px;
+    }
+    .create-account-wrap{
+        flex-direction: column;
+        gap: 70px;
+    }
+    .create-account-section .text{
+        max-width: unset;
+    }
+    .accoumt-form-wrap{
+        align-self: center;
+    }
+} 
